@@ -1,0 +1,126 @@
+Hacking? - Gaining unauthorized access 
+Ethical Hacking - Gaining unauthorized access with a written consent (NDA)
+
+Scope - What to be tested? spotify.com
+*.spotify.com
+
+Out-of-Scope:
+admin.spotify.com
+DDOS/DOS - Distributed Denial of Service/Denial of Service
+Social Engineering Attacks
+Phishing mail/sms
+
+Black Hat - illegal 
+White Hat - penetration testing/ethical hackers
+Grey Hat - stand inbetween
+
+Offensive Sec - Red Team
+Defensive Sec - Blue Team (SOC TEAM)
+SIEM - Detects
+SOAR - Detects, Action
+
+https://www.iitm.ac.in/
+https://civil.iitm.ac.in/
+https://it.iitm.ac.in/
+https://biotech.iitm.ac.in/
+https://admin.eee.iitm.ac.in/
+
+sub-domain - books.example.com\Android Studio\bin\lldb\helpers
+https://www.google.com/auth/login/
+https://books.google.com/uploads/sep_2023/images/1.jpg?username=admin&password=admin
+https://games.google.com
+https://admin.google.com
+
+Activity - engagement with the client
+Data - Information - Asset (Valuable)
+Security? - 
+
+Clear text
+Cipher text - HTTP + SSL (CA)
+
+Cryptography (Converting Clear text to Cipher text)
+
+Symmetric Encryption  - 1 key
+Asymmetric Encryption - 2 keys (Private Key & Public Key)
+
+Encrypt - Decrypt
+
+Encryption vs Hashing (One-way)
+
+3-way handshake
+Client   -----> SYN     ---> Server
+Client   <----- SYN/ACK <--- Server
+Client   -----> ACK     ---> Server
+
+
+CIA
+Confidentiality - Owner - Data is at rest
+Integrity - Originality - Data is in motion
+Availability - 
+
+VA (Automated & Manual) & PT (Manual Testing) - POC
+Security Testing?
+Standards? rules/policies
+Mitigations? 
+
+False Positive
+False Negative
+True Positive
+True Negative
+
+Bug - Deviation from the requirement (ISTQB)
+Defect - 
+Vulnerability - Weakness in the software application
+Exploit - Piece of code/concept
+Risk
+POC - Proof of Concept (BUG Report) STR
+
+Firewall
+WAF - Web Application Firewall
+IDS
+IPS
+Honeypot
+DMZ - Demilitarized Zone
+Malware - M
+
+Proxy
+VPN
+
+TOR Network
+
+Client    ---Proxy--->   Server
+Client    <--Proxy---   Server
+
+TCP Port 80 - Clear Text - HTTP
+TCP Port 443 - Cipher Text - HTTP + SSL Cert - CA
+
+No Log (Paid)
+
+Request     Proxy      Response
+Headers     Proxy      Headers (Fixed Data)
+
+--------------------
+Client ----> Server
+Client <---- Server
+--------------------
+
+Defense in Depth (Layered defense)
+Physical
+Logical
+Admin
+
+Crypto 
+
+Encryption
+Encrypt - Decrypt
+
+Symmetric Encr  - One Key
+Asymmetric Encr - Two Keys (Key Pairs) (Public and Private Key) - SSL
+
+Hashing (One-way)
+hash 
+Hashing + Salting
+
+salt+word
+word+salt
+salt+word+salt
